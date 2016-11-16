@@ -1,0 +1,189 @@
+@charset "UTF-8";
+.find-box{
+	width: 100%;
+	height: 100%;
+	background: #f5f8fa;
+}
+.find-header{
+	width: 100%;
+	height: 0.57rem;
+	background: #f5f5f5;
+	line-height:0.57rem; 
+	border-bottom:0.01rem solid  #e0e0e0;
+}
+.find-repent{
+	width: 0.28rem;
+	height: 0.23rem;
+	background: url("../../images/icon_retreat.jpg");
+	background-size:100%; 
+	float: left;
+	margin-top:0.15rem; 
+	margin-left:0.16rem;
+
+}
+.find-name{
+	font-size: 0.22rem;
+	color: #979797;
+	float: left;
+	margin-left: 1.2rem;
+	font-family: "仿宋 "
+}
+.find-flush{
+	width: 0.28rem;
+	height: 0.23rem;
+	background: url("../../images/search-aa15f2d.png") no-repeat;
+	background-size:80%; 
+	float: right;
+	margin-top:0.15rem; 
+	margin-right:0.16rem; 
+}
+.find-nav{
+	width: 100%;
+	height: 1.3rem;
+	margin-top:0.2rem; 
+}
+.find-nav span{
+	vertical-align: middle;
+
+}
+.find-microblog{
+	width: 100%;
+	height: 0.65rem;
+	background: #fff;
+	border-bottom:0.01rem solid #e5e5e5;
+	border-top:1px solid #fff; 
+	padding-top:0.12rem; 
+	padding-left:0.12rem; 
+}
+.find-microblog span:nth-of-type(2){
+	font-size: 0.17rem;
+}
+.find-microblog span:nth-of-type(3){
+	margin-left: 1.75rem;
+	font-size:0.12rem;
+	color: #898989 ;
+}
+.find-extend{
+	width: 0.33rem;
+	height: 0.22rem;
+	background: url("../../images/arrow-right-da5cb9c.png") no-repeat;
+	background-size:35%; 
+	display: inline-block;
+	margin-top:0.05rem; 
+}
+
+.find-icon-a{
+	width: 0.42rem;
+	height: 0.4rem;
+	background: url("../../images/icon-a.gif");
+	display:inline-block;
+	background-size: 100%;
+}
+.find-address{
+	width: 100%;
+	height: 0.65rem;
+	background: #fff;
+	border-top:1px solid #fff; 
+	padding-top:0.05rem; 
+}
+.find-icon-b{
+	width: 0.42rem;
+	height: 0.4rem;
+	background: url("../../images/icon-b.gif");
+	display:inline-block;
+	background-size: 100%;
+	margin-top:0.08rem; 
+	margin-left:0.12rem; 
+
+}
+.find-address span:nth-of-type(2){
+	font-size: 0.17rem;
+}
+.find-address span:nth-of-type(3){
+	margin-left: 1.72rem;
+	font-size:0.12rem;
+	color: #000 ;
+}
+.find-body-list{
+	width:100%;
+	background: #fff;
+	margin-top:0.2rem; 
+	border-top:1px solid #fff; 
+	border-bottom:0.03rem solid #f4f8fa; 
+}
+.find-body span{
+	vertical-align: middle;
+}
+.find-body-top{
+	margin-top:0.15rem;
+	margin-left:0.15rem;  
+}
+.find-body-portrait{
+	width: 0.56rem;
+	height: 0.56rem;
+	display: inline-block;
+	background: url("../../images/bote_03.gif");
+	background-size:100%; 
+
+}
+.find-attention{
+	width: 0.81rem;
+	height: 0.32rem;
+	border:0.02rem solid #ff8896;
+	float: right;
+	margin-right:0.12rem;
+	margin-top:0.13rem;  
+	text-align: center;
+	line-height: 0.32rem;
+	color: #ff1732;
+	border-radius: 0.05rem;
+	font-weight:bold; 
+}
+.find-hide{
+	width: 0.61rem;
+	height: 0.32rem;
+	border:0.02rem solid #dedede;
+	float: right;
+	margin-right:0.12rem;
+	margin-top:0.13rem;  
+	text-align: center;
+	line-height: 0.32rem;
+	color: #dedede;
+	border-radius: 0.05rem;
+	font-weight:bold; 
+}
+.find-body ul{
+	margin-top:0.25rem; 
+	margin-left:0.2rem; 
+	margin-bottom:0.3rem; 
+	
+}
+.find-body ul li:first-of-type{
+	width: 1.2rem;
+	height: 1.22rem;
+	background: url("../../images/icon-ipn.gif");
+	background-size:100%;
+	display: inline-block; 
+
+}
+.find-body ul li:nth-of-type(2){
+	width: 1.2rem;
+	height: 1.22rem;
+	background: url("../../images/icon-cty.gif");
+	background-size:100%; 
+	display: inline-block
+}
+.find-body ul li:nth-of-type(3){
+	width: 1.2rem;
+	height: 1.22rem;
+	background: url("../../images/icon-bod.gif");
+	background-size:100%; 
+	display: inline-block
+}
+.find-body ul span{
+	display: inline-block;
+	margin-left:0.01rem; 
+	font-size: 0.14rem;
+	color: #bdbdbd;
+}
+		

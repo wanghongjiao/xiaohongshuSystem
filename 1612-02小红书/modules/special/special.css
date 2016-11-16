@@ -1,0 +1,237 @@
+
+.spl-header{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	height: .64rem;
+	line-height: .64rem;
+	font-size: .16rem;
+	color: #989898;
+	background: #f5f5f5;
+	display: table;
+	padding:0 0.2rem;
+	z-index: 2;
+}
+.spl-header>span{
+	display: table-cell;
+}
+.spl-header-left{
+	width: 9%;
+	background: url(../../images/back.jpg) no-repeat center;
+	background-size: 100%;
+}
+.spl-header-right{
+	width: 9%;
+	background: url(../../images/share.jpg) no-repeat center;
+	background-size: 100%;
+}
+.spl-header-center{
+	text-align: center;
+	display: table-cell;
+}
+
+.spl-main{
+	position: relative;
+	top: .64rem;
+	left: 0;
+	height: 8rem;
+}
+
+/*主体上部*/
+.spl-mainTop{
+	width: 100%;
+	background: #fff;
+}
+.spl-mainTop-big{
+	width: 100%;
+	padding-bottom: .25rem;
+	overflow: hidden;
+}
+.spl-mainTop-big-left{
+	float: left;
+	width: 40%;
+	padding-left: .2rem;
+}
+.spl-mainTop-big-left>span{
+	display: block;
+	width: 27%;
+	padding-top: 27%;
+	background: url(../../images/bacao.jpg) no-repeat center;
+	background-size: 100%;
+}
+.spl-mainTop-big-left>div{
+	width: 70%;
+	padding-top: 50%;
+	background: url(../../images/spl-pande.jpg) no-repeat center;
+	background-size: 100%;
+	margin: .7rem 0 0 .3rem;
+}
+
+.spl-mainTop-big-right{
+	float: left;
+	padding: .35rem 0 0 0.3rem;
+	font-size: .13rem;
+}
+.spl-mainTop-big-right>h3{
+	font-size: .16rem;
+}
+.spl-mainTop-name{
+	color: #303030;
+	margin: .2rem 0 .05rem 0;
+}
+.spl-mainTop-style{
+	color: #303030;
+	margin-bottom: .25rem;
+}
+.spl-mainTop-price{
+	color: #f9031f;
+	font-size: .14rem;
+}
+.spl-mainTop-look{
+	float: right;
+	color: #414141;
+	border-bottom: 2px solid #969696;
+	display: inline-block;
+	text-align: center;
+	padding-bottom: .02rem;
+}
+.spl-mainTop-number{
+	display: block;
+	margin-top: .2rem;
+	margin-left: 1.5rem;
+}
+
+.spl-mainTop-small{
+	width: 100%;
+	clear: both;
+	border-top: 2px solid #eee;
+	border-bottom: 2px solid #eee;
+	padding: 3% 0 3% 1.4%;
+}
+
+/*列表部分*/
+.spl-mainBottom{
+	width: 100%;
+}
+.spl-mainBottom>p{
+	height: .6rem;
+	line-height: .6rem;
+	border-bottom: 2px solid #eee;
+	background: #fff;
+}
+.spl-show-list{
+	display: inline-block;
+}
+.spl-listHeader{
+	color: #838383;
+	padding-left: .1rem;
+	float: left;
+}
+.spl_flag{
+	display: inline-block;
+	border-top: .06rem solid #828282;
+	border-bottom: .06rem solid transparent;
+	border-left: .06rem solid transparent;
+	border-right: .06rem solid transparent;
+	float: left;
+	margin: .26rem 0 0 .15rem;
+}
+
+.spl_flag1{
+	display: inline-block;
+	border-bottom: .06rem solid #828282;
+	border-top: .06rem solid transparent;
+	border-left: .06rem solid transparent;
+	border-right: .06rem solid transparent;
+	float: left;
+	margin: .2rem 0 0 .15rem;
+}
+
+.spl-mainBottom-div{
+	width: 100%;
+	padding: 2% 0;
+	display: flex;
+	margin-bottom: 2rem;
+	position: relative;
+}
+.spl-mainBottom ul{
+	width: 100%;
+}
+.spl-mainBottom-left>li{
+	width: 46%;
+	background: #fff;
+	margin: .07rem;
+	padding-bottom: .1rem;
+	display: inline-block;
+}
+.spl-list-bg{
+	width: 1.9rem;
+	height: 1.9rem;
+}
+.spl-list-text{
+	padding-left: .1rem;
+	font-size: .12rem;
+}
+.spl-list-name{
+	height: .5rem;
+	overflow: hidden;
+}
+.spl-list-text>h3{
+	margin: .1rem 0;
+	font-size: .14rem;
+	color: #1d1d1d;
+}
+.spl-list-style{
+	margin: .05rem 0 .2rem 0;
+}
+.spl-list-price{
+	font-size: .14rem;
+	font-weight: 700;
+	color: #f15467;
+}
+.spl-list-markPrice{
+	text-decoration: line-through;
+}
+
+
+/*购物车标志*/
+.car-bg{
+	width: .6rem;
+	height: .6rem;
+	border-radius: 50%;
+	background: url(../../images/wishlist-cart.gif) no-repeat center;
+	background-size: 100%;
+	position: fixed;
+	left: 5%;
+	bottom: 5%;
+}
+
+/*遮罩层*/
+.spl-zz{
+	width: 100%;
+	height: 10rem;
+	background: rgba(100, 100, 100, 0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.spl-zz-list li{
+	height: .5rem;
+	line-height: .5rem;
+	padding: 0 10% 0 3%;
+	background: #fff;
+	border-bottom: 1px solid #eee;
+}
+.spl-zz-list li span{
+	font-size: .2rem;
+	font-weight: 700;
+	float: right;
+	color: red;
+	display: none;
+}
+
+.spl-show-span{
+	display: block !important;
+}

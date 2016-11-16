@@ -1,0 +1,238 @@
+#info{
+	width: 100%;
+	color: #000;
+}
+.info-header{
+	width: 100%;
+	height: 0.64rem;
+	line-height: 0.64rem;
+	text-align: center;
+	background-color: #ff2741;
+	color: #fff;
+	position:fixed;
+	top:0;
+	z-index: 10;
+}
+.info-header h3{
+	font-size: 0.2rem;
+}
+#swiper-container1{
+	margin-top: 0.64rem;
+}
+.info-nav{
+	background-color: #fff;
+}
+.info-nav-top{
+	height: 0.6rem;
+	border-bottom: 1px solid #e0e0e0;
+}
+.info-nav-top li{
+	height: 0.6rem;
+	line-height: 0.6rem;
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+.info-nav-top .active-nav{
+	border-bottom:3px solid #ff2741;
+	color: #ff2741;
+}
+.info-nav-bot{
+	height: 0.88rem;
+	padding: 0.15rem 0.2rem 0;
+	background-color: #fff;
+}
+.nav-bot-left{
+	width: 2.4rem;
+	float: left;
+}
+.nav-bot-left p{
+	width: 2rem;
+	font-weight: 700;
+	color: #000;
+	padding:0.1rem 0 0.12rem 0;
+}
+.nav-bot-left span{
+	font-size: 0.14rem;
+}
+.nav-bot-right{
+	width: 1rem;
+	float: right;
+}
+.nav-bot-right span{
+	display: block;
+}
+.nav-bot-right .bot-right-close{
+	padding-bottom: 0.05rem;
+	text-align: right;
+	font-size: 0.2rem;
+}
+.nav-bot-right .bot-right-go{
+	text-align: center;
+	background-color: #ff3d54;
+	padding: 0.08rem;
+	color: #fff;
+	border-radius: 0.1rem;
+}
+.info-state{
+	width: 100%;
+}
+.info-list{
+	margin-top: 0.1rem;
+	background-color: #fff;
+}
+.info-list>li{
+	padding:0.1rem;
+	border-bottom: 1px solid #f6f6f6;
+}
+.info-list li span{
+	display: inline-block;
+	padding: 0.08rem 0;
+	font-size: 0.12rem;
+	color: #b5b5b5;
+}
+.info-list li>div{
+	height: 0.86rem;
+}
+.list-head-img{
+	display: inline-block;
+	width: 0.35rem;
+	height: 0.35rem;
+	border-radius: 50%;
+	background: url(../../images/li-item-img.jpg) no-repeat;
+	background-size: 100%;
+}
+.list-more{
+	width: 3.37rem;
+	float: right;
+}
+.list-more p{
+	font-weight: bold;
+}
+.info-list li div .list-more span{
+	font-size: 0.16rem;
+	color: #000;
+	font-weight:bolder;
+}
+.list-more ul li{
+	width: 0.5rem;
+	height: 0.5rem;
+	background: url(../../images/info-img.jpg) no-repeat;
+	background-size: 100%;
+	float: left;
+	margin-right: 0.06rem;
+}
+.info-list .list-more ul li:last-of-type{
+	margin-right: 0;
+}
+.info-null{
+	width: 100%;
+	height: 4rem;
+	text-align: center;
+	background-color: #fff;
+}
+.info-null>div{
+	height: 0.5rem;
+	line-height: 0.5rem;
+}
+.info-null p{
+	color: #b5b5b5;
+	display: inline-block;
+}
+.info-null span{
+	vertical-align: middle;
+	display: inline-block;
+	width: 0.3rem;
+	height: 0.3rem;
+	background: url(../../images/info-null-img.jpg) no-repeat;
+	background-size: 100%;
+}
+.about{
+	width: 100%;
+}
+.about .info-nav-bot{
+	height: 1.08rem;
+}
+.info-about-main{
+	margin-top: 0.1rem;
+	height: 1.5rem;
+	background-color: #fff;
+	font-size: 0.14rem;
+}
+.info-about-main div{
+	padding-top: 0.1rem;
+	height: 0.6rem;
+	border-bottom: 1px solid #e0e0e0;
+}
+.info-about-main div:last-of-type{
+	border-bottom: none;
+}
+.info-about-main div span:first-of-type{
+	display: inline-block;
+	width: 0.45rem;
+	height: 0.45rem;
+	vertical-align: middle;
+	margin:0 0.1rem;
+}
+.info_zan{
+	background: url(../../images/info-zan.jpg) no-repeat;
+	background-size: 100%;
+}
+.info_sc{
+	background: url(../../images/info-sc.jpg) no-repeat;
+	background-size: 100%;
+}
+.icon_right{
+	display: inline-block;
+	width: 0.2rem;
+	height: 0.2rem;
+	background: url(../../images/arrow-right.png) no-repeat;
+	background-size: 50%;
+	float: right;
+	margin:0.1rem 0.1rem 0 0;
+}
+.inform{
+	width: 100%;
+}
+.inform li{
+	height: 2.4rem;
+	background-color: #fff;
+	padding-top: 0.15rem;
+}
+.inform .inform-top{
+	height: 0.64rem;
+	margin-bottom: 0.1rem;
+}
+.inform-top>span{
+	width: 0.4rem;
+	height: 0.4rem;
+	display: inline-block;
+	background: url(../../images/inform-lb.jpg) no-repeat;
+	background-size: 100%;
+	margin:0 0.1rem;
+}
+.inform-top>div{
+	width: 3.25rem;
+	border-top: 1px solid #e0e0e0;
+	display: inline-block;
+	font-size: 0.14rem;
+}
+.inform-top>div:first-of-type{
+	border-top:none;
+}
+.inform-top>div p{
+	padding: 0.2rem 0 0.1rem 0;
+}
+.inform-top>div span{
+	color: #aaa;
+}
+.inform-content{
+	width: 3.12rem;
+	height: 1.36rem;
+	background-color: #f5f5f5;
+	padding: 0.1rem;
+	font-size: 0.1rem;
+	margin-left: 0.7rem;
+	line-height: 0.22rem;
+	border-radius: .08rem;
+}

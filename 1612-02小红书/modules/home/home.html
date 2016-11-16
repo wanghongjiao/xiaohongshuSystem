@@ -1,0 +1,84 @@
+
+<div id="home">
+	<!-- 头部 -->
+	<header>
+		<input type="text" placeholder ="搜索笔记，商品和用户" ui-sref="search">
+		<img ng-src="images/home-header-right.jpg">
+	</header>
+	<!-- 导航 -->
+	
+	<!-- 主体 -->
+	<div class="page-wrapper">
+		<nav>
+			<div class="nav-list">
+				<div class="nav-left swiper-container" id="swiper-container1">
+					<ul class="swiper-wrapper">
+						<li ng-repeat="x in homenavlist" class="swiper-slide" ng-class="changeStyle[$index]"  ng-click="changePages($index)" repeat-finish="renderFinish()" ><a href="">{{x.name}}</a></li>
+					</ul>
+				</div>
+				<span class="nav-right" ng-click="flag = !flag"></span>
+			</div>
+		</nav>
+			<div ui-view>
+				<div class="page-container">
+					<ul class="page-container-left">
+						<li class="container-li" ng-repeat="x in homeData">
+							<img class="left-li-bg" lazy-src={{x.images_list[0].original}}>
+							<div class="left-li-item">
+								<h3>{{x.title}}</h3>
+								<p>{{x.desc}}</p>
+							</div>
+							<div class="left-li-bot">
+								<div class="li-item-left">
+									<img class="li-item-img" ng-src="{{x.user.images}}">
+									<p class="li-item-name">{{x.user.nickname}}</p>
+								</div>
+								<div class="li-item-right">
+									<span class="li-item-like"></span>
+									<p class="li-item-num">{{x.likes}}</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!-- <div class="page-container">
+					<div class="page-focus">
+						<div class="focus-main">
+							<div class="focus-bg"></div>
+							<p>你关注的好友动态都将在这里实时呈现</p>
+							<span>马上关注</span>
+						</div>
+					</div>
+				</div> -->
+			</div>
+				<div class="shade-show" ng-hide="flag">
+					<div class="shade-header">
+						<div class="header-top">
+							<span>全部选项</span>
+							<span class="nav-right" ng-click="flag = !flag"></span>
+						</div>
+							<ul class="shade-list">
+								<li>推荐</li>
+								<li>关注</li>
+								<li>护肤</li>
+								<li class="li-none-right">时尚</li>
+								<li>彩妆</li>
+								<li>生活</li>
+								<li>母婴</li>
+								<li class="li-none-right">旅行</li>
+								<li>男人</li>
+							</ul>
+						
+					</div>
+					<div class="shade-long"></div>
+				</div>
+			</div>
+		
+		<div class="page-focus">
+			<div class="focus-main">
+				<div class="focus-bg"></div>
+				<p>你关注的好友动态都将在这里实时呈现</p>
+				<span>马上关注</span>
+			</div>
+		</div>
+</div>

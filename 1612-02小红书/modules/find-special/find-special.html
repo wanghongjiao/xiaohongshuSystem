@@ -1,0 +1,43 @@
+
+	<div class="find-box">
+		<div class="find-header">
+			<p class="find-repent" ui-sref="find"></p>
+			<p class="find-name">专辑</p>
+			<p class="find-flush" ui-sref="find-special"></p>
+		</div>
+		<div class="find-content">
+			<div class="find-content-notes">
+				<h3>网红早餐竟是隔夜吐司做的</h3>
+				<p>笔记 · 12</p>
+				<p>粉丝 · 191</p>
+			</div>
+			<p class="find-attention">+ 关注</p>
+			<div class="find-character">
+			<p class="find-portrait"></p>
+				<span>生活薯</span>早上十分钟，也可以做出超高颜的吐司，早餐哟！快来跟小红薯学一招~
+			</div>
+		</div>
+		<div class="find-body">
+			<ul ng-repeat="x in arr">
+				<li ng-repeat="i in x.images_list"  >
+					<p style="display:none" class="hide">{{x}}</p>
+					<img lazy-src={{i.original}}>
+					<div class="find-li-div" >
+						<h3>{{x.title}}</h3>
+						<p>{{x.title}}</p>
+						<p>{{x.desc}}</p>
+						<div class="find-div">
+							<span class="find-portraits" style="background:url({{x.user.images}});background-size:100%;"></span>
+							<span class="find-body-name">{{x.user.nickname}}</span>
+							<span class="find-icon"></span>
+							<span class="find-number">{{x.likes}}</span>
+						</div>
+					</div>
+				</li>
+				
+				
+			</ul>
+
+		</div>
+	</div>
+

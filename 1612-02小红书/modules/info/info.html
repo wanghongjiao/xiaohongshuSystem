@@ -1,0 +1,100 @@
+<div id="info">
+	<div class="info-header">
+		<h3>消息</h3>
+	</div>
+		<div class="info-nav swiper-container" id="swiper-container1">
+			<ul class="info-nav-top swiper-wrapper">
+				<li class="swiper-slide active-nav">动态</li>
+				<li class="swiper-slide">关于你</li>
+				<li class="swiper-slide">通知</li>
+			</ul>
+		</div>
+		<div class="swiper-container" id="swiper-container2">
+		<div class="swiper-wrapper">
+			<div class="info-state swiper-slide">
+				<div class="info-nav-bot">
+					<div class="nav-bot-left">
+						<p>找找谁在小红书</p>
+						<span>和你的微博好友一起探索小红书</span>
+					</div>
+					<div class="nav-bot-right">
+						<span class="bot-right-close">×</span>
+						<span class="bot-right-go">立即前往</span>
+					</div>
+				</div>
+				<ul class="info-list">
+					<li ng-repeat="x in arr" repeat-finish>
+						<span>11月10日&nbsp周四</span>
+						<div>
+							<span class="list-head-img" style="background: url({{x.avatar}});background-size: 100%"></span>
+							<div class="list-more">
+								<p>{{x.title}}</p>
+								<ul ng-repeat="y in x.notes">
+									<li style="background: url({{y.images}});background-size: 100%"></li>
+								</ul>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<div class="info-null">
+					<div>
+						<p>没了,别拉了</p>
+						<span></span>
+					</div>
+				</div>
+			</div>
+			<div class="about swiper-slide">
+				<div class="info-nav-bot">
+					<div class="nav-bot-left">
+						<p>发布笔记</p>
+						<span>你用心发现的，也是别人不想错过的，快来分享你的好生活吧</span>
+					</div>
+					<div class="nav-bot-right">
+						<span class="bot-right-close">×</span>
+						<span class="bot-right-go">立即前往</span>
+					</div>
+				</div>
+				<div class="info-about-main">
+					<div>
+						<span class="info_zan"></span>
+						<span>赞了你的笔记</span>
+						<span class="icon_right"></span>
+					</div>
+					<div>
+						<span class="info_sc"></span>
+						<span>收藏了你的笔记</span>
+						<span class="icon_right"></span>
+					</div>
+				</div>
+				<div class="info-null">
+					<div>
+						<p>没了,别拉了</p>
+						<span></span>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<ul class="inform"> 
+					<li>
+						<div class="inform-top">
+							<span></span>
+							<div>
+								<p>【小红书社区规范】</p>
+								<span>2016-11-10&nbsp23:15</span>
+							</div>
+						</div>
+						<div class="inform-content">
+							<p>为了给广大小红薯们创造一个合些友好，真诚分享交流的社区氛围，队长在这里为大家呈上【小红书社区规范】区氛围，队长在这里为大家呈上【小红书社区规范】区氛围，队长在这里为大家呈上【小红书社区规范】</p>
+						</div>
+					</li>
+				</ul>
+				<div class="info-null">
+					<div>
+						<p>没了,别拉了</p>
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

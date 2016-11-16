@@ -1,0 +1,41 @@
+{
+    "data": [
+        {
+            "name": "推荐",
+            "oid": "homefeed_recommend"
+        },
+        {
+            "name": "关注",
+            "oid": "homefeed_followed"
+        },
+        {
+            "name": "护肤",
+            "oid": "homefeed.skincare"
+        },
+        {
+            "name": "时尚",
+            "oid": "homefeed.fashion"
+        },
+        {
+            "name": "彩妆",
+            "oid": "homefeed.makeup"
+        },
+        {
+            "name": "生活",
+            "oid": "homefeed.life"
+        },
+        {
+            "name": "母婴",
+            "oid": "homefeed.babycare"
+        },
+        {
+            "name": "旅行",
+            "oid": "homefeed.travel"
+        },
+        {
+            "name": "男人",
+            "oid": "homefeed.men"
+        }
+    ],
+    "result": 0
+}

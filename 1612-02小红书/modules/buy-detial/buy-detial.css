@@ -1,0 +1,255 @@
+.spl-header{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	z-index: 2;
+	height: .64rem;
+	line-height: .64rem;
+	font-size: .16rem;
+	color: #989898;
+	background: #f5f5f5;
+	display: table;
+	padding:0 0.2rem;
+}
+.spl-header>span{
+	display: table-cell;
+	font-family: '微软雅黑';
+}
+.spl-header-left{
+	width: 9%;
+	background: url(../../images/back.jpg) no-repeat center;
+	background-size: 100%;
+}
+.spl-header-right{
+	width: 9%;
+	background: url(../../images/share.jpg) no-repeat center;
+	background-size: 100%;
+}
+.spl-header-center{
+	text-align: center;
+	display: table-cell;
+}
+
+.buy-detial-main{
+	position: absolute;
+	top: .64rem;
+	left: 0;
+	width: 100%;
+	margin-bottom: 1rem;
+}
+.buy-detial-top{
+	background: #fff;
+}
+.buy-detial-top img{
+	display: block;
+	width: 60%;
+	margin: 0 auto;
+	margin-bottom: .2rem;
+	
+}
+.buy-detial-sp1{
+	margin-left: 80%;
+}
+.buy-detial-name{
+	height: .6rem;
+	line-height: .3rem;
+	padding: 0 2.5%;
+	margin-top: .3rem;
+	font-family: '微软雅黑';
+	text-align: center;
+	font-weight: bold;
+
+}
+.buy-detial-from{
+	padding-left: 2.5%;
+	border-bottom: 1px solid #eee;
+}
+.buy-detial-from>span, .buy-detial-price>span{
+	font-size: .13rem;
+	display: inline-block;
+	height: .5rem;
+	line-height: .5rem;
+}
+.buy-detial-from>span:first-of-type{
+	color: #aaa;
+	margin-right: .2rem;
+	 font-family: '微软雅黑';
+}
+.buy-detial-from>span:last-of-type{
+	color: #5b92e1;
+	font-family: '微软雅黑';
+}
+
+.buy-detial-price{
+	padding-left: 2.5%;
+}
+
+.buy-detial-price>span:first-of-type{
+	color: red;
+	margin-right: .08rem;
+}
+.buy-detial-price>span:last-of-type{
+	color: #aaa;
+	text-decoration: line-through;
+}
+.buy-detial-selected{
+	width: 95%;
+	background: #f5f8fa;
+	height: .4rem;
+	line-height: .4rem;
+	padding: 0 .1rem;
+	margin: 0 auto;
+	font-size: .14rem;
+	border-radius: .1rem;
+}
+.buy-detial-text{
+	padding: .2rem .1rem;
+	font-size: .14rem;
+	line-height: .2rem;
+	font-family: '微软雅黑';
+}
+
+
+
+
+
+
+.buy-detial-main-bottom{
+	
+	margin-top: .2rem;
+	
+}
+.buy-detial-shop{
+	padding: .2rem;
+	background: #fff;
+	margin-bottom: .2rem;
+}
+.buy-detial-shop img{
+	width: .5rem;
+	height: .5rem;
+}
+.buy-detial-shop div{
+	display: inline-block;
+	vertical-align:top;
+	margin-top: .08rem;
+	margin-left: .1rem;
+}
+.buy-detial-shop div span{
+	display: inline-block;
+	border: 1px solid red;
+	border-radius: .05rem;
+	font-size: .12rem;
+	color: red;
+}
+.buy-detial-shop p:last-of-type{
+	color:#aaa;
+	font-size: .13rem;
+	line-height: .3rem;
+}
+
+.buy-detial-title{
+	width: 100%;
+	background: #fff;
+}
+.buy-detial-title span{
+	display: inline-block;
+	width: 49%;
+	height: .5rem;
+	line-height: .5rem;
+	text-align: center;
+}
+.buy-detial-title-change{
+	color: red;
+	border-bottom: 2px solid red;
+}
+
+
+.spl-mainBottom ul{
+	width: 100%;
+}
+.spl-mainBottom-left>li{
+	width: 46%;
+	background: #fff;
+	margin: .07rem;
+	padding-bottom: .1rem;
+	display: inline-block;
+}
+.spl-list-bg{
+	width: 1.9rem;
+	height: 1.9rem;
+}
+.spl-list-text{
+	padding-left: .1rem;
+	font-size: .12rem;
+}
+.spl-list-name{
+	height: .5rem;
+	overflow: hidden;
+}
+.spl-list-text>h3{
+	margin: .1rem 0;
+	font-size: .14rem;
+	color: #1d1d1d;
+}
+.spl-list-style{
+	margin: .05rem 0 .2rem 0;
+}
+.spl-list-price{
+	font-size: .14rem;
+	font-weight: 700;
+	color: #f15467;
+}
+.spl-list-markPrice{
+	text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.buy-detial-footer{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 5;
+	font-size: .14rem;
+	border-top: 1px solid #eee;
+	background: #f5f8fa;
+}
+.buy-detial-footer div{
+	display: inline-block;
+	color: #999;
+	width: .7rem;
+	padding-bottom: .05rem;
+	text-align: center;
+	background: url(../../images/buy-detial-sbg.jpg) no-repeat right center;
+	background-size: 3% 65%;
+}
+.buy-detial-footer div img{
+	display: block;
+	margin: 0 auto;
+	width: 35%;
+	margin-top: .03rem;
+	margin-bottom: .05rem;
+}
+.buy-detial-footer div:last-of-type{
+	height: .55rem;
+	width: 1rem;
+	color: #fff;
+	float: right;
+	text-align: center;
+	line-height: .55rem;
+	padding-bottom: 0;
+	background: #f04055;
+	vertical-align: bottom;
+}

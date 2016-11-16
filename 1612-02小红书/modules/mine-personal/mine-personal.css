@@ -1,0 +1,71 @@
+@charset"UTF-8";
+body{
+	background: #fff;
+}
+#personal header{
+	height: .64rem;
+	background: #f5f5f5;
+	display: table;
+	width: 100%;
+}
+#personal header span{
+	display: table-cell;
+	width: 20%;
+}
+#personal .personal-back{
+	background: url(../../images/personal-back.jpg) no-repeat center;
+	background-size: 35% 50%;
+	padding: .15rem;
+
+}
+#personal header h3{
+	display: table-cell;
+	width: 60%;
+	text-align: center;
+	line-height: .64rem;
+	font-size: .2rem;
+	font-family: "微软雅黑";
+	color: #666;
+}
+#personal .div1{
+	padding-left: .2rem;
+	background: #f5f8fa;
+	height: .64rem;
+	line-height: .64rem;
+}
+#personal table tr{
+	width: 100%;
+	height: .6rem;
+	line-height: .6rem;
+
+}
+#personal table{
+	width: 100%;
+}
+#personal table tr td{
+	border-bottom: 1px solid #ddd;
+	color: #666;
+	font-size: .18rem;
+	padding-left: .2rem;
+}
+#personal table tr>td:first-of-type{
+	width: 25%;
+}
+#personal table tr>td:nth-of-type(2){
+	width:60%;
+}
+#personal table tr>td:nth-of-type(3){
+	width: 15%;
+}
+#personal .touxiang{
+	display: inline-block;
+	width: .7rem;
+	height: .7rem;
+	background: url(../../images/touxiang.jpg) no-repeat center;
+	background-size: contain;
+	margin-top: .2rem;
+}
+#personal .name,#personal .addr,#personal .number,#personal .sex{
+	color: #474747;
+	font-weight: 600;
+}

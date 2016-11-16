@@ -1,0 +1,14 @@
+
+	<div id="find-all" >
+		<div class="find-all-header">
+			<span class="icon_left" ui-sref="find"></span>
+			<h3>品质生活</h3>
+		</div>
+		<ul class="find-all-main">
+			<li ng-repeat="x in arr">
+				<div style="background:url({{x.image}});background-size:100%"></div>
+				<p>{{x.name}}</p>
+			</li>
+			
+		</ul>
+	</div>

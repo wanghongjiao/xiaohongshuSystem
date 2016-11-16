@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html ng-app="xhs">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width =device-width,initial-scale=1.0,minimum-scale =1.0,maximum-scale =1,user-scalable =no">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/swiper.css">
+</head>
+<body>
+    <div class="container">
+        <div ui-view></div>
+    </div>
+    <div id="footer" ng-hide="footerflag">
+            <ul>
+                <li>
+                    <div ui-sref="home" class="icon_home"></div>
+                    <p>首页</p>
+                </li>
+                <li>
+                    <div ui-sref="find" class="icon_find"></div>
+                    <p>发现</p>
+                </li>
+                <li>
+                    <div ui-sref="buy" class="icon_car"></div>
+                    <p>购买</p>
+                </li>
+                <li>
+                    <div ui-sref="info" class="icon_info"></div>
+                    <p>消息</p>
+                </li>
+                <li>
+                    <div ui-sref="mine" class="icon_mine"></div>
+                    <p>我</p>
+                </li>
+            </ul>
+        </div>
+
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-ui-router.js"></script>
+    <script src="lib/angular-css.min.js"></script>
+    <script src="lib/swiper.js"></script>
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/rem.js"></script>
+    <script src="app.js"></script>
+    <script src="lib/me-lazyload.js"></script>
+    <script src="index.js"></script>
+    <script src="./modules/info/info.js"></script>
+    <script src="./modules/buy/buy.js"></script>
+    <script src="./modules/buy-detial/buy-detial.js"></script>
+    <script src="./modules/mine/mine.js"></script>
+    <script src="./modules/home/home.js"></script>
+    <!-- <script src="./modules/entry/entry.js"></script> -->
+    <script src="./modules/find/find.js"></script>
+    <script src="./modules/find-all/find-all.js"></script>
+    <script src="./modules/find-detail/find-detail.js"></script>
+    <script src="./modules/find-friend/find-friend.js"></script>
+    <script src="./modules/find-special/find-special.js"></script>
+    <script src="./modules/loading/loading.js"></script>
+    <script src="./modules/find-all/find-all.js"></script>
+    <script src="./modules/mine-cart/mine-cart.js"></script>
+    <script src="./modules/mine-order/mine-order.js"></script>
+    <script src="./modules/mine-wishlist/mine-wishlist.js"></script>
+    <script src="./modules/mine-personal/mine-personal.js"></script>
+    <!-- <script src="./modules/otherDetial/otherDetial.js"></script> -->
+    <script src="./modules/search/search.js"></script>
+    <script src="./modules/special/special.js"></script>
+
+</body>
+    <script type="text/javascript">
+        
+readHash(location.hash);
+var foot_li =  $("#footer li"),
+    foot_div = foot_li.find("div"),
+    className1;
+
+    foot_li.on("click", function(){
+        foot_div.each(function(i){
+          //获取当前className
+            className1 = foot_div[i].className;
+            //判断classname最后一位是否为1
+                if(className1.substr(className1.length-1,1)=="1"){
+                  //若为1,截取除最后一位的字符串赋值给className
+                  foot_div[i].className = className1.substr(0,className1.length-1);
+            }
+        });
+
+        //当前背景图改变
+        var className2 = $(this).find("div")[0].className+1;
+        $(this).find("div").removeClass().addClass(className2);
+        localStorage.index = foot_div.index($(this));
+    });
+    function readHash(hash){
+          var current_bg = $("#footer li div");
+          switch(hash){
+            case "#/home":
+                current_bg.eq(0).addClass("icon_home1");
+            break;
+            case "#/find": 
+                 current_bg.eq(1).addClass("icon_find1");
+            break;
+            case "#/buy": 
+                  current_bg.eq(2).addClass("icon_car1");
+            break;
+            case "#/info": 
+                  current_bg.eq(3).addClass("icon_info1");
+            break;
+            case "#/mine":
+                  current_bg.eq(4).addClass("icon_mine1");
+            break;
+            default:
+                  return;
+            break;
+        }
+      };   
+    </script>
+</html>

@@ -1,0 +1,48 @@
+{
+    "data": {
+        "style": "four_columns",
+        "categories": [
+            {
+                "sequence": null,
+                "name": "5折必买",
+                "id": "57ea3a778340c36bbd3e3a72"
+            },
+            {
+                "sequence": -1,
+                "name": "任选优惠",
+                "id": "563b2d6c805d89293895656b"
+            },
+            {
+                "sequence": 0,
+                "name": "多件多折",
+                "id": "563b2d6c805d89293895656a"
+            },
+            {
+                "sequence": 1,
+                "name": "母婴",
+                "id": "563b2d6c805d892938956568"
+            },
+            {
+                "sequence": 2,
+                "name": "美妆",
+                "id": "563b2d6c805d892938956567"
+            },
+            {
+                "sequence": 3,
+                "name": "时尚",
+                "id": "563b2d6c805d892938956563"
+            },
+            {
+                "sequence": 4,
+                "name": "家居电器",
+                "id": "563b2d6c805d892938956565"
+            },
+            {
+                "sequence": 5,
+                "name": "美食保健",
+                "id": "563b2d6c805d892938956566"
+            }
+        ]
+    },
+    "result": 0
+}

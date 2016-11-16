@@ -1,0 +1,81 @@
+
+	<div id="buy" lazyContainer>
+	<!-- 头部 -->
+		<div class="buy-header">
+			<input type="text" placeholder="搜索笔记，商品和用户">
+			<img src="images/icon_buy.jpg" ui-sref="mine-cart">
+		</div>
+
+	<!-- 导航 -->
+		<div class="buy-container">
+			<div class="buy-nav">
+				<div class="buy-nav-bg"></div>
+				<div class="buy-nav-list">
+					<span  ng-repeat="x in arr" repeat-finish>{{x.name}}</span>
+				</div>
+			</div>
+			<!-- 列表 -->
+			<ul class="buy-main">
+				<!-- 模块1 -->
+				<li class="buy-main-li">
+					<div class="buy-banner" style="background: url({{bannerList1.image}}); background-size: 100%;" ui-sref="special"><span></span></div>
+					<div class="buy-list">
+						<ul class="buy-inside-ul swiper-container">
+							<li class="buy-inside-li swiper-wrapper" >
+								<div class="swiper-slide jump" ng-repeat="x in bannerList1.goods_list" repeat-finish="renderFinish()" ng-click="jump1()">
+								<textarea class="hide" style="display:none">{{x}}</textarea>
+									<img lazy-src={{x.original_image}}>
+									<h3>{{x.title}}</h3>
+									<p>
+										<span class="buy-price">￥{{x.price}}</span>
+										<span class="buy-mark-price">￥{{x.discount_price}}</span>
+									</p>
+								</div>
+								<div class="inside-last-img swiper-slide"><img src="images/view-all-items.png"></div>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<!-- 模块2 -->
+				<li class="buy-main-li">
+					<div class="buy-banner" style="background: url({{bannerList2.image}}); background-size: 100%;"  ui-sref="special"><span></span></div>
+					<div class="buy-list">
+						<ul class="buy-inside-ul swiper-container">
+							<li class="buy-inside-li swiper-wrapper">
+								<div class="swiper-slide" ng-repeat="x in bannerList2.goods_list" repeat-finish="renderFinish()">
+								<textarea class="hide" style="display:none">{{x}}</textarea>
+									<img lazy-src={{x.original_image}}>
+									<h3>{{x.title}}</h3>
+									<p>
+										<span class="buy-price">￥{{x.price}}</span>
+										<span class="buy-mark-price">￥{{x.discount_price}}</span>
+									</p>
+								</div>
+								<div class="inside-last-img swiper-slide"><img src="images/view-all-items.png"></div>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<!-- 模块3 -->
+				<li class="buy-main-li">
+					<div class="buy-banner" style="background: url({{bannerList3.image}}); background-size: 100%;" ui-sref="special"><span></span></div>
+					<div class="buy-list">
+						<ul class="buy-inside-ul swiper-container">
+							<li class="buy-inside-li swiper-wrapper">
+								<div class="swiper-slide" ng-repeat="x in bannerList3.goods_list" repeat-finish="renderFinish()">
+								<textarea class="hide" style="display:none">{{x}}</textarea>
+									<img lazy-src={{x.original_image}}>
+									<h3>{{x.title}}</h3>
+									<p>
+										<span class="buy-price">￥{{x.price}}</span>
+										<span class="buy-mark-price">￥{{x.discount_price}}</span>
+									</p>
+								</div>
+								<div class="inside-last-img swiper-slide"><img src="images/view-all-items.png"></div>
+							</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>

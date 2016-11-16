@@ -1,0 +1,71 @@
+/* 页脚 */
+#footer{
+	width: 100%;
+	height: 0.64rem;
+	border-top: 0.01rem solid #cccccc;
+	background: #fff;
+	position: fixed;
+	bottom: 0;
+	display:flex;
+	font-size: 0.13rem;
+	padding-top:0.05rem; 
+	color:#989898;
+	z-index: 10;
+}
+#footer ul{
+	width: 100%;
+	align-items:center;
+	display: flex;
+}
+#footer li{
+	text-align: center;
+	flex:1;
+	height: 0.57rem;
+}
+#footer li div{
+	width: 0.36rem;
+	height: 0.3rem;
+	display: inline-block;
+}
+
+
+#footer .icon_home{
+	background: url("../images/icon_home.jpg");
+	background-size:100%; 
+}
+#footer .icon_find{
+	background: url("../images/icon_find.jpg");
+	background-size:100%; 
+}
+#footer .icon_car{
+	background: url("../images/icon_car.jpg");
+	background-size:100%; 
+}
+#footer .icon_info{
+	background: url("../images/icon_info.jpg");
+	background-size:100%; 
+}
+#footer .icon_mine{
+	background: url("../images/icon_mine.jpg");
+	background-size:100%; 
+}
+#footer .icon_home1{
+	background: url("../images/icon_home1.jpg");
+	background-size:100%; 
+}
+#footer .icon_find1{
+	background: url("../images/icon_find1.jpg");
+	background-size:100%; 
+}
+#footer .icon_car1{
+	background: url("../images/icon_car1.jpg");
+	background-size:100%; 
+}
+#footer .icon_info1{
+	background: url("../images/icon_info1.jpg");
+	background-size:100%; 
+}
+#footer .icon_mine1{
+	background: url("../images/icon_mine1.jpg");
+	background-size:100%; 
+}

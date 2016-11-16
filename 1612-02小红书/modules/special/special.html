@@ -1,0 +1,77 @@
+
+	<div id="spl">
+		<!-- 头部 -->
+		<div class="spl-header">
+			<span class="spl-header-left" ng-click="toBack()"></span>
+			<h3 class="spl-header-center">秋冬鞋包趋势专场</h3>
+			<span class="spl-header-right"></sapn>
+		</div>
+		<!-- 主体 -->
+		<div class="spl-main">
+			<div class="spl-mainTop">
+				<div class="spl-mainTop-big">
+					<div class="spl-mainTop-big-left">
+						<span></span>
+						<div></div>
+					</div>
+					<div class="spl-mainTop-big-right">
+						<h3>萌萌胖达惹人爱</h3>
+						<p class="spl-mainTop-name">FURLA芙拉 拉链封口</p>
+						<p class="spl-mainTop-style">熊猫形状女士手拿包黑白拼色</p>
+						<p>
+							<span class="spl-mainTop-price">￥699</span>
+							<span class="spl-mainTop-look">查看详情</span>
+						</p>
+						<span class="spl-mainTop-number">1 / 2</sapn>
+					</div>
+				</div>
+
+				<div class="spl-mainTop-small">
+					{{splList.desc}}
+				</div>
+			</div>
+			<!-- 列表部分 -->
+			<div class="spl-mainBottom">
+				<p>
+					<span class="spl-show-list" ng-click="showZ_list()">
+						<span class="spl-listHeader">默认排序</span>
+						<span class="spl_flag" id="spl_flagg"></span>
+					</span>
+				</p>
+
+				<div class="spl-mainBottom-div">
+					<ul class="spl-mainBottom-left">
+						<li ng-repeat="x in splList.goods_list|orderBy:name:flag" ng-if="x.price" >
+							<img class="spl-list-bg" lazy-src="{{x.original_image}}">
+							<div class="spl-list-text">
+								<h3>{{x.title}}</h3>
+								<p class="spl-list-name">{{x.short_name}}</p>
+								<span class="spl-list-price">￥{{x.price}}</span>
+							</div>
+						</li>
+					</ul>
+
+					<!-- 选择排序遮罩 -->
+					<div class="spl-zz" ng-show="show">
+						<ul class="spl-zz-list">
+							<li ng-click="ids()">
+								默认排序
+								<span ng-style="showspan1">√</span>
+							</li>
+							<li ng-click="pricelow()">
+								价格从低到高
+								<span ng-style="showspan2">√</span>
+							</li>
+							<li ng-click="pricehight()">
+								价格从高到低
+								<span ng-style="showspan3">√</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- 购物车图片 -->
+			<div class="car-bg"></div>
+		</div>	
+	</div>

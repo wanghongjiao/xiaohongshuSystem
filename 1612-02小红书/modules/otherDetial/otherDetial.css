@@ -1,0 +1,235 @@
+
+#other .header{
+	width: 100%;
+	padding: 5%;
+	background-color: #a3b3bc;
+}
+#other .header .top{
+	width: 100%;
+	overflow: hidden;
+}
+#other .header .top>span{
+	display: inline-block;
+	width: 15%;
+	padding-top: 8%;
+}
+#other .header .top .top1{
+	float: left;
+	background: url(../../images/other-back.jpg) no-repeat center;
+	background-size: 100%;
+}
+#other .header .top .top2{
+	float: right;
+	background: url(../../images/other-share.jpg) no-repeat center;
+	background-size: 100%;
+}
+
+
+
+
+/*头部中间*/
+#other .middle{
+	width: 100%;
+	padding: .2rem 0rem;
+}
+#other .img{
+	display: inline-block;
+	width: 20%;
+	padding-top: 20%;
+	background: url(../../images/mine-header-head.gif) no-repeat center;
+	background-size: 100%;
+}
+#other .header .middle ul{
+	width: 75%;
+	vertical-align: top;
+	display: inline-block;
+}
+#other .header .middle ul li{
+	width: 21%;
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+}
+#other .header .middle ul span{
+	display: inline-block;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	color: #d2dade;
+	font-size: .2rem;	
+}
+#other .header .middle ul p{
+	height: 0.3rem;
+	line-height: 0.3rem;
+}
+
+#other .bottom{
+	color: #fff;
+	overflow: hidden;
+}
+#other .bottomLeft{
+	width: 30%;
+	float: left;
+}
+#other .user-name{
+	width: 80%;
+	padding-top: 18%;
+	background: url(../../images/other-name-bg.jpg) no-repeat right;
+	background-size: 38% 100%;
+}
+#other .user-position{
+	width: 100%;
+	height: .2rem;
+    padding-left: 18%;
+	margin-top: 3%;
+	background: url(../../images/other-position-bg.jpg) no-repeat left;
+	background-size: 15% 100%;
+}
+
+#other .bottomRight{
+	width: 50%;
+	float: right;
+}
+
+#other .bottom span{
+	display: inline-block;
+	float: left;
+}
+#other .fen{
+	width: 60%;
+	padding-top: 30%;
+	background: url(../../images/other-fen.jpg) no-repeat center;
+	background-size: 100%;
+	margin-top: .2rem;
+}
+
+#other .down{
+	width: 30%;
+	padding-top: 18%;
+	background: url(../../images/other-down.jpg) no-repeat center;
+	background-size: 100%;
+	margin: .32rem 0 0 .1rem;
+}
+
+#other .mainTop{
+	width: 100%;
+	padding: 2% 0;
+	background: #fff;
+}
+#other .mainTop>p{
+	height: .4rem;
+	line-height: .4rem;
+	padding-left: 7%;
+}
+
+#other .main-list-title{
+	width: 100%;
+	display: flex;
+	border-bottom: 2px solid #eee;
+}
+#other .main-list-title span{
+	width: 50%;	
+	padding: 4% 0;
+	text-align: center;
+}
+#other .other-changeBorder{
+	color: #ff2741;
+	border-bottom: 2px solid #ff2741;
+}
+
+#other .main-list{
+	width: 100%;
+	overflow: scroll;
+}
+#other .main-list::-webkit-scrollbar{
+	width: 0;
+	height: 0;
+}
+#other .main-list>div{
+	width: 200%;
+	padding: 5%;
+	background: #fff;
+}
+#other .main-list span{
+	font-size: .14rem;
+	padding: 1%;
+	margin-right: 1%;
+	border-radius: .05rem;
+	background: #f5f8fa;
+}
+
+
+
+/*底部列表*/
+.page-container{
+	margin-top: 4%;
+	display: flex;
+	justify-content: space-around;
+}
+.page-container ul{
+	width: 46%;
+}
+.page-container-left li{
+	border:1px solid #e0e0e0;
+	margin-bottom: 5%;
+	background: #fff;
+}
+.left-li-bg{
+	width: 100%;
+	height: auto;
+}
+.left-li-item{
+	padding: 0.05rem;
+	font-size: 0.12rem;
+}
+.left-li-item h3{
+	word-break:break-all; 
+	font-size: 0.12rem;
+}
+.left-li-item p{
+	display: -webkit-box;
+	height: .76rem;
+	line-height: .22rem;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	-webkit-line-clamp:3;
+	-webkit-box-orient:vertical;
+	padding: 0.1rem 0;
+	color: #666;
+}
+.li-item-left{
+	width: 1rem;
+	float: left;
+}
+.li-item-img{
+	display: inline-block;
+	background: url(../../images/li-item-img.jpg) no-repeat;
+	width: 0.35rem;
+	height: 0.35rem;
+	background-size: 100%;
+	border-radius: 50%;
+	margin-left: 0.05rem;
+	vertical-align: middle;
+}
+.left-li-bot{
+	height: 0.4rem;
+}
+.left-li-bot p{
+	font:bold 0.05rem "仿宋";
+	display: inline-block;
+}
+.li-item-num{
+	color:#aaa;
+}
+.li-item-right{
+	line-height: 0.4rem;
+	float: right;
+	margin-right: 0.05rem;
+}
+.li-item-like{
+	display: inline-block;
+	background: url(../../images/li-item-like.png) no-repeat;
+	width: 0.2rem;
+	height: 0.2rem;
+	background-size: 100%;
+	vertical-align: middle;
+}

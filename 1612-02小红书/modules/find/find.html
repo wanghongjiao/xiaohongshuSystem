@@ -1,0 +1,60 @@
+
+	<div class="find-box">
+		<div class="find-header">
+			<input type="text" placeholder="搜索笔记，商品和用户">
+			<img ng-src="images/icon_addF.jpg" ui-sref="find-friend">
+		</div>
+		<div class="swiper-container banner">
+		    <div class="swiper-wrapper">
+		       <div class="swiper-slide" ng-repeat="x in arr" repeat-finish="renderFinish()"><img ng-src={{x.image}}></div>
+		    </div>
+		   <div class="swiper-pagination"></div>
+		</div>
+		<div class="find-nav">
+			<p class="find-nav-hot">热门话题<span class="find-translate"> · hot topic</span></p>
+			<p class="find-nav-more">查看更多</p>
+			<div class="find-nav-content swiper-container">
+				<ul class="swiper-wrapper">
+					<li class="swiper-slide" ng-repeat="x in ars" repeat-finish="render1Finish()">
+						<img ng-src={{x.image}}>
+						<p>{{x.name}}</p>
+					</li>
+				</ul>
+			</div>
+			<p class="find-nav-hot">品质生活<span class="find-translate"> ·  quality life</span></p>
+			<p class="find-nav-more" ui-sref="find-all">查看更多</p>
+			<div class="find-nav-contents swiper-container">
+				<ul class="swiper-wrapper">
+					<li class="swiper-slide"  repeat-finish="render2Finish()" ng-repeat="x in ara" >
+						<img ng-src={{x.image}}>
+					</li>
+				</ul>
+			</div>
+			<p class="find-nav-hot">全球购物<span class="find-translate"> ·  Shopper City</span></p>
+			<p class="find-nav-more">查看更多</p>
+			<div class="find-nav-live swiper-container">
+				<ul class="swiper-wrapper">
+					<li  ng-repeat="x in arw" class="swiper-slide" repeat-finish="render3Finish()">
+						<img ng-src={{x.image}}>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+		<div class="find-body">
+			<p class="find-nav-hot">热门专辑<span class="find-translate"> · selected boardes</span></p>
+			<div class="find-body-a" ng-repeat="x in str" ui-sref="find-special">
+				<h3>{{x.name}}</h3>
+				<p>笔记·{{x.fans}} 粉丝·{{x.total}}</p>
+				<div class="find-list">
+					<ul class="find-body-list" ng-repeat="y in x.images">
+						<li style="background:url({{y}});background-size:100%;"></li>
+					</ul>	
+				</div>
+				<div class="find-name"><p style="background:url({{x.user.images}});background-size:100%;"></p>由<span>{{x.user.nickname}}</span>创建</div>
+			</div>
+			
+		</div>
+	</div>
+
+	

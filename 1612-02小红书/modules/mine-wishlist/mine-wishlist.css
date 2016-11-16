@@ -1,0 +1,151 @@
+@charset"utf-8";
+/*心愿单的头部*/
+body{
+	background-color: #f4f8fb;
+}
+#wishlist{
+	position: relative;
+}
+#wishlist .mine-wishlist-header{
+	width: 100%;
+	height: 0.64rem;
+	line-height: 0.64rem;
+	background-color: #f5f5f5;
+	display: table;
+	font-size: .22rem;
+}
+#wishlist .mine-wishlist-header span{
+	width: 0.8rem;
+	display: table-cell;
+}
+#wishlist .mine-wishlist-header p{
+	text-align: center;
+	display: table-cell;
+	font-weight: 600;
+	color: #8d8d8d;
+	font-size:0.24rem;
+	font-family: "幼圆";
+}
+#wishlist .header-back{
+	background:url(../../images/mine-cart-back.gif) no-repeat center;
+	background-size:50% 50%;
+}
+/*nav部分*/
+.mine-wishlist-main{
+	background: #fff;
+}
+.mine-wishlist-main .nav{
+	height: .5rem;
+	line-height: .5rem;
+}
+.mine-wishlist-main .nav .img{
+	background:url(../../images/wishlist-nav.gif) no-repeat center;
+	background-size: 100% 100%;
+	height: .3rem;
+	width: .3rem;
+	vertical-align: middle;
+	float: left;
+	margin-top: .1rem;
+	margin-left: .1rem;
+}
+.mine-wishlist-main .nav h3{
+	float: left;
+	width: 50%;
+	margin-left: .1rem;
+}
+.mine-wishlist-main .nav h3 span{
+	color: red;
+}
+/*主体部分*/
+.mine-wishlist-main ul{
+	background-color: #fff;
+	overflow: hidden;
+	margin-bottom: .2rem;
+
+}
+.mine-wishlist-main li{
+	margin-bottom: .1rem;
+	overflow: hidden;
+}
+.mine-wishlist-main .left{
+	width: 25.3%;
+	height: 1.05rem;
+	background:url(../../images/wishlist-gods1.gif) no-repeat center;
+	background-size: 100% 100%;
+	margin-left: .1rem;
+	float: left;
+}
+.mine-wishlist-main .right{
+	width:65.2%;
+	float: right;
+	margin-right: .1rem;
+	height: 1.05rem;
+}
+.mine-wishlist-main .right p{
+	font-weight: 550;
+	font-size: .13rem;
+	line-height: .22rem;
+	margin-bottom: .05rem;
+	font-family: "黑体";
+}
+.mine-wishlist-main .right p span{
+	color: red;
+}
+.mine-wishlist-main .right .joincart{
+	color: #fff;
+	background: #f04055;
+	padding: .05rem .15rem;
+	border-radius: .06rem;
+	font-weight: 600;
+	font-size: .12rem;
+}
+.mine-wishlist-main .right .dustbin{
+	padding-top: .3rem;
+	width: .3rem;
+	background: url(../../images/mine-cart-dustbin.gif) no-repeat center;
+	background-size: 100% 100%;
+	float: right;
+	margin-right: .2rem;
+}
+.mine-wishlist-main .right .dele{
+	text-decoration: line-through;
+	color: #888;
+	margin-left: .1rem;
+}
+/*收藏地点*/
+#wishlist .storeaddress{
+	height: .65rem;
+	line-height: .65rem;
+	background-color: #fff;
+}
+#wishlist .storeaddress .position{
+	padding: .25rem;
+	background: url(../../images/mine-wishlist-position.gif) no-repeat center;
+	background-size: 50% 50%;
+	margin-top: .09rem;
+	margin-left: .2rem;
+	float: left;
+}
+#wishlist .storeaddress .gt{
+	float: right;
+	margin-right: .3rem;
+	font-size: .2rem;
+}
+/*购物车小图标*/
+#wishlist .wishlist-cart{
+	position: fixed;
+	bottom: .4rem;
+	left: .3rem;
+}
+#wishlist .wishlist-cart-number{
+	position: fixed;
+	bottom: .8rem;
+	left: .7rem;
+	width: .2rem;
+	height: .2rem;
+	background:red;
+	color: #fff;
+	border-radius: 50%;
+	text-align: center;
+}
+

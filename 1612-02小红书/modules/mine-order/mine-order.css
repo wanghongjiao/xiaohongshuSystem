@@ -1,0 +1,101 @@
+@charset "UTF-8";
+body{
+	background: #f4f8fb;
+}
+#order header{
+	height: .64rem;
+	background: #f5f5f5;
+	display: table;
+	width: 100%;
+}
+#order header span{
+	display: table-cell;
+	width: 20%;
+}
+#order .personal-back{
+	background: url(../../images/personal-back.jpg) no-repeat center;
+	background-size: 35% 50%;
+	padding: .15rem;order
+
+}
+#order header h3{
+	display: table-cell;
+	width: 60%;
+	text-align: center;
+	line-height: .64rem;
+	font-size: .2rem;
+	font-family: "微软雅黑";
+	color: #666;
+}
+/*联系客服*/
+#order .serve{
+	height: .5rem;
+	background:#ffe1af;
+	color: #745b31;
+}
+#order .serve h3{
+	display: inline-block;
+	width: 70%;
+
+}
+#order .serve span{
+	display: inline-block;
+	font-size: .2rem;
+	
+}
+#order .serve-bg{
+	background: url(../../images/order-serve.jpg) no-repeat center;
+	background-size: 100%;
+	width: .33rem;
+	height: .33rem;
+	margin: .08rem .2rem;
+	vertical-align: middle;
+}
+#order .gods-container{
+	background:#fff;
+	margin-top: .1rem;
+}
+#order .s1{
+	margin-left: .2rem;
+}
+#order .s2{
+	float: right;
+	margin-right: .3rem;
+}
+#order .gods{
+	height: .5rem;
+	line-height: .5rem;
+	border-bottom: 1px solid #ccc;
+}
+#order .gods-item{
+	border-bottom: 1px solid #ccc;
+}
+#order .gods-left{
+	width: .95rem;
+	height: .84rem;
+	background: url(../../images/order-item1.jpg) no-repeat center;
+	background-size: 100%;
+	display: inline-block;
+	margin: .1rem;
+}
+#order .gods-right{
+	width: 60%;
+	display: inline-block;
+	margin-left: .3rem;
+}
+#order .gods-right h3{
+	margin-bottom: .4rem;
+}
+#order .gods-right span{
+	display: inline-block;
+	color: red;
+	margin-bottom: .1rem;
+}
+#order .pay-container{
+	line-height: .5rem;
+	height: .5rem;
+	padding-left: .3rem;
+}
+#order .pay-container span{
+	color: red;
+}

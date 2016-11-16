@@ -1,0 +1,213 @@
+@charset"utf-8";
+body{
+	background-color: #f4f8fb;
+}
+/*我的页面的头部*/
+#mine .header{
+	height: 2.67rem;
+	background-color: #a3b3bc;
+	padding: .2rem;
+}
+#mine .header .figure{
+	background: url(../../images/mine-header-figure.gif) no-repeat center;
+	background-size: contain;
+	width: .33rem;
+	height: .3rem;
+}
+#mine .header .shezhi{
+	background: url(../../images/mine-header-shezhi.gif) no-repeat center;
+	background-size: contain;
+	width: .33rem;
+	height: .3rem;
+	float: right;
+}
+#mine .header .before{
+	background: url(../../images/mine-header-before.gif) no-repeat center;
+	background-size: contain;
+	width: .33rem;
+	height: .3rem;
+	float: right;
+}
+/*头部中间*/
+#mine .header .middle{
+	height: 1.28rem;
+	padding: .32rem 0rem;
+}
+#mine .header .middle .img{
+	display: inline-block;
+	width: .7rem;
+	height: .7rem;
+	background: url(../../images/mine-header-head.gif) no-repeat center;
+	background-size: contain;
+	float: left;
+	vertical-align: middle;
+}
+#mine .header .middle ul{
+	margin-top: 0.1rem;
+	float: right;
+	width: 76%;
+	display: table;
+}
+#mine .header .middle ul li{
+	display: table-cell;
+	float: left;
+	color: #fff;
+	width: 23%;
+	text-align: center;
+}
+#mine .header .middle ul span{
+	float: left;
+	line-height: 0.6rem;
+	color: #d2dade;
+	font-size: .2rem;	
+}
+#mine .header .middle ul p{
+	line-height: 0.3rem;
+}
+/*头部的下面*/
+#mine .header .bottom{
+	color: #fff;
+	font-family: "幼圆";
+}
+#mine .header .bottom p{
+	height: .3rem;
+	
+}
+#mine .header .bottom>div>p>span{
+	background: url(../../images/mine-position.gif) no-repeat center;
+	background-size: contain;
+	width: .2rem;
+	height: .2rem;
+}
+#mine .header .bottom>div{
+	float: left;
+}
+#mine .header .bottom>span{
+	float: right;
+	padding: .1rem .3rem;
+	border: 2px solid #fff;
+	border-radius: .1rem;
+	margin-top: .1rem;
+}
+/*text部分*/
+#mine .text{
+	height: .47rem;
+	background:#fff2c8;
+	line-height: .47rem;
+	font-size: .14rem;
+}
+#mine .text .voice{
+	background: url(../../images/mine-voice.gif) no-repeat center;
+	background-size: contain;
+	padding: .2rem;
+	margin-left: .1rem;
+	margin-top: .05rem;
+	float: left;
+}
+#mine .text .gt{
+	float: right;
+	margin-right: .1rem;
+}
+#mine .nav{
+	margin-top: 0.1rem;
+	height: 0.9rem;
+	border-top: 1px solid #ddd;
+}
+.mine-main-top{
+	height: 0.6rem;
+	background-color: #fff;
+}
+#mine .nav li{
+	width: 25%;
+	float: left;
+	text-align: center;
+	background: #fff;
+	padding-bottom: .1rem;
+	color: #000;
+
+}
+#mine .nav li .mine-nav-car{
+	padding-top: .6rem;
+	background: url(../../images/mine-nav-car.jpg) no-repeat center;
+	background-size: contain;
+}
+#mine .nav li .mine-nav-q{
+	padding-top: .6rem;
+	background: url(../../images/mine-nav-q.jpg) no-repeat center;
+	background-size: contain;
+}
+#mine .nav li .mine-nav-buy{
+	padding-top: .6rem;
+	background: url(../../images/mine-nav-buy.jpg) no-repeat center;
+	background-size: contain;
+}
+#mine .nav li .mine-nav-list{
+	padding-top: .6rem;
+	background: url(../../images/mine-nav-list.jpg) no-repeat center;
+	background-size: contain;
+}
+/*主体部分*/
+#mine .needswipe{
+	background-color: #fff;
+	margin-bottom: .1rem;
+}
+#mine .needswipe p{
+	float: left;
+	width: 50%;
+	text-align: center;
+	font-size: .16rem;
+	font-weight: 600;
+	color: #666;
+	height: .57rem;
+	line-height: .57rem;
+}
+#mine .needswipe p:hover{
+	border-bottom: 2px solid red;
+}
+#mine .needswipe span{
+	padding:.1rem;
+	background-color: #f5f8fa;
+	border-radius: .05rem;
+	margin:.2rem;
+}
+/*主体笔记*/
+#mine .mine-main-note ul{
+	width: 48%;
+	float: left;
+}
+#mine .mine-main-note ul li{
+	background-color: #fff;
+	margin-bottom: 5%;
+}
+#mine .mine-main-note ul img{
+	width: 100%;
+	height: auto;
+}
+#mine .mine-ul-left{
+	margin-right: 4%;
+}
+#mine .item-bottom{
+	height: 0.4rem;
+	line-height: 0.4rem;
+}
+#mine .item-bottom span{
+	color: #666;
+	margin: .05rem;
+	vertical-align: middle;
+}
+#mine .item-bottom .little-img{
+	display: inline-block;
+	width: .36rem;
+	height: .36rem;
+	background: url(../../images/little-img.gif) no-repeat center;
+	background-size: contain;
+	margin-top: .05rem;
+	/*vertical-align: bottom;*/
+}
+#mine .item-bottom .icon_heart{
+	width: .2rem;
+	height: .2rem;
+	background: url(../../images/mine-heart.gif) no-repeat center;
+	background-size: contain;
+	display: inline-block;
+}

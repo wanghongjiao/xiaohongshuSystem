@@ -1,0 +1,297 @@
+@charset"UTF-8";
+body{
+	background-color: #eaeaea;
+}
+span{
+	display: inline-block;
+}
+/*轮播部分*/
+#detail{
+	position: relative;
+}
+#detail .back{
+	position: absolute;
+	top: .15rem;
+	left: .1rem;
+	display: inline-block;
+	width: .3rem;
+	height: .3rem;
+	background: url(../../images/icon_left.png) no-repeat center;
+	background-size: 100% 100%;
+}
+#detail .banner{
+	width: 100%;
+	height: 3.73rem;
+	overflow: hidden;	
+}
+#detail .banner-img{
+	width: 20rem;
+	height: 3.73rem;
+}
+#detail .banner img{
+	width:4.14rem;
+	height: 3.73rem;
+	float: left;
+}
+/*主体部分*/
+#detail .detail-main{
+	background-color: #fff;
+	border-top-left-radius: .1rem;
+	border-top-right-radius: .1rem;
+}
+#detail .detail-main-top{
+	height: .7rem;
+	border-bottom: 1px solid #ddd;
+}
+#detail .detail-main-top span{
+	vertical-align:middle;
+}
+#detail .detail-main-figure{
+	width: .3rem;
+	height: .3rem;
+	background: url(../../images/detail-main-top-figure.gif) no-repeat center;
+	background-size: contain;
+	margin:.2rem .1rem;
+}
+#detail .icecream{
+	width: .2rem;
+	height: .2rem;
+	background: url(../../images/detail-main-top-icecream.gif) no-repeat center;
+	background-size: contain;
+}
+#detail .detail-main-top p{
+	float: right;
+	padding:.05rem .1rem;
+	border: 2px solid #ff9fab;
+	border-radius: .05rem;
+	color: #ff3951;
+	margin-top: .2rem;
+	margin-right: .2rem;
+}
+/*主体的下面部分*/
+#detail .detail-main-bottom{
+	padding: .1rem;
+}
+#detail .detail-main-bottom h3{
+	line-height: .45rem;
+	height: .45rem;
+}
+#detail .detail-main-bottom p{
+	text-indent: .5em;
+	line-height: .22rem;
+}
+/*评论部分*/
+#detail .comment{
+	background-color: #fff;
+}
+#detail .timer{
+	overflow: hidden;
+	height: .5rem;
+	line-height: .5rem;
+}
+#detail .comment .timer .span1{
+	float: left;
+	margin-left: .2rem;
+}
+#detail .comment .timer .span2{
+	float: right;
+	margin-right: .2rem;
+}
+#detail .detail-comment-figure{
+	width: .4rem;
+	height: .35rem;
+	background: url(../../images/detail-main-top-figure.gif) no-repeat center;
+	background-size: contain;
+	margin:.1rem .1rem;
+	float: left;
+vertical-align: bottom;
+}
+#detail .comment .title{
+	overflow: hidden;
+}
+#detail .comment .title p{
+	width: 75%;
+	background-color: #f5f5f5;
+	height: .35rem;
+	line-height: .35rem;
+	float: left;
+	border-radius: .05rem;
+	padding-left: .1rem;
+	margin: .1rem 0rem;
+
+}
+#detail .comment ul{
+	margin-top: .1rem;
+}
+#detail .comment ul li{
+	background-color: #fff;
+	overflow: hidden;
+}
+#detail .comment ul li>div{
+	float: left;
+}
+#detail .comment ul li .left{
+	width: 12%;
+
+}
+#detail .comment ul li .center{
+	width: 76%;
+}
+#detail .comment ul li .right{
+	width: 12%;
+}
+#detail .comment li .left span{
+	width: .35rem;
+	height: .35rem;
+	background: url(../../images/detail-main-top-figure.gif) no-repeat top center;
+	background-size: contain; 
+	margin-left: .1rem;
+}
+#detail .comment li .right{
+	padding-top: .1rem;
+}
+#detail .comment li .center p{
+	line-height: .3rem;
+}
+#detail .comment li .right img{
+	vertical-align: middle;
+
+}
+#detail .more{
+	text-align: center;
+	height: .6rem;
+	line-height:.5rem;
+	font-size: .2rem;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin: .1rem 0rem;
+}
+#detail .detail-like{
+	background-color: #fff;
+	line-height: .45rem;
+	height: .45rem;
+	padding: 0 .2rem;
+	font-weight: bold;
+	color: #666;
+}
+#detail .detail-like span{
+	float: right;
+}
+/*购买横向列表部分*/
+.buy-list{
+	width: 100%;
+	overflow-x: scroll;
+	background-color: #fff;
+	padding-bottom: .1rem;
+}
+.buy-list::-webkit-scrollbar{
+	width: 0;
+	height: 0;
+}
+.buy-inside-ul{
+	width: 260%;
+	padding: 3.5% 2%;
+}
+.buy-inside-li{
+	float: left;
+	width: 11.5%;
+	font-size: .13rem;
+	margin-right: 1%;
+}
+.buy-inside-bg{
+	width: 100%;
+	padding-top: 100%;
+	background: url(../../images/detail-li-bg1.gif) no-repeat center;
+	background-size: 100%;
+}
+.buy-inside-li>h3{
+	margin: .155rem 0;
+}
+.buy-price{
+	color: #ff2a43;
+}
+.buy-mark-price{
+	font-size: .12rem;
+	color: #d5d6d6;
+	text-decoration: line-through;
+}
+/*相关笔记*/
+#detail .detail-title-text{
+	height: .45rem;
+	line-height: .45rem;
+	font-size: .2rem;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+	padding-left: .2rem;
+	margin-top: .1rem;
+}
+#detail .detail-icon-title{
+	padding: .1rem;
+	overflow-x: scroll;
+	width: 100%;
+	background-color: #fff;
+}
+#detail .detail-icon-title::-webkit-scrollbar{
+	width: 0;
+	height: 0;
+}
+#detail .detail-icon-title .inside-div{
+	width: 250%;
+
+}
+#detail .detail-icon-title span{
+	padding: .1rem;
+	background-color: #f5f8fa;
+	border-radius: .03rem;
+}
+/*所有的商品列表*/
+#detail .detail-all-gods{
+	overflow:hidden;
+	background-color: #fff;
+}
+#detail .detail-left,#detail .detail-right{
+	float: left;
+	width: 48%;
+
+}
+#detail .detail-left li,#detail .detail-right li{
+	width: 100%;
+	background-color: #fff;
+	margin-bottom: .1rem;
+	border: 1px solid #ccc;
+}
+#detail .detail-right{
+	margin-left: 4%;
+}
+#detail .detail-left-bg{
+	width: 100%;
+	height: auto;
+}
+#detail ul .detail-li-figure{
+	width: .35rem;
+	height: .35rem;
+	background: url(../../images/detail-li-figure1.gif) no-repeat top center;
+	background-size: contain; 
+	margin-left: .1rem;
+}
+#detail .detail-left span,#detail .detail-right span{
+	vertical-align: middle;
+}
+#detail .detail-left .detail-li-heart{
+	width: .2rem;
+	height: .2rem;
+	background: url(../../images/detail-li-figure2.gif) no-repeat top center;
+	background-size: contain; 
+	margin-left: .1rem;
+}
+#detail .detail-right .li-text,#detail .detail-left .li-text{
+	padding: .1rem .2rem;
+}
+#detail ul .li-text p{
+	margin-top: .1rem;
+	font:0.15rem "黑体";
+	line-height: .2rem;
+
+}
+
+

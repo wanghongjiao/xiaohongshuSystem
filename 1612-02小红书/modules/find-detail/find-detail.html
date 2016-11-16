@@ -1,0 +1,203 @@
+
+<div id="detail">
+	<span class="back" ng-click="back()"></span>
+	<div class="banner">
+		<div class="banner-img">
+			<img ng-repeat="n in arr.images_list" ng-src={{n.original}}>
+		
+		</div>	
+	</div>
+	<div class="detail-main">
+		<div class="detail-main-top" >
+			<span class="detail-main-figure"  style="background:url({{arr.user.images}}); background-size:100%"></span>
+			<span>{{arr.user.nickname}}</span>
+			<span class="icecream"> </span>
+			<p>+ 关注</p>
+		</div>
+		<div class="detail-main-bottom">
+			<h3>{{arr.title}}</h3>
+			<p>{{arr.title}}</p>
+			<p>{{arr.desc}}</p>
+			
+		</div>
+	</div>
+	<div class="comment">
+		<div class="timer">
+			<span class="span1">{{arr.time}}</span>
+			<span class="span2">598次收藏 &nbsp;&nbsp;  {{arr.likes}}次点赞</span>
+		</div>
+		<div class="title">
+			<span class="detail-comment-figure"></span>
+			<p >点赞都是套路，评论才是真诚</p>
+		</div>
+		<ul>
+			<li>
+				<div class="left">
+					<span class="left-figure"></span>
+				</div>
+				<div class="center">
+					<p>cherry樱桃</p>
+					<p>2016-7-29 10:18</p>
+					<div>
+						回复了<span>曲万青</span>之前看过有人在小红书晒过西瓜吐司，今天我就来跟大家分享下我的西瓜吐司是怎么做的。首先
+						晒过西瓜吐司，今天我就来跟大家分享下我的西瓜吐司是怎么做的。首先晒过西瓜吐司，今天我就来跟大家分享下我的西瓜吐司是怎么做的。首先晒过西瓜吐司，今天我就来跟大家分享下我的西瓜吐司是怎么做的。首先
+					</div>
+				</div>
+				<div class="right">
+					<img src="images/detail-comment-zan.gif">
+					<span>10</span>
+				</div>
+			</li>
+		</ul>
+		<div class="more">查看全部170条评论</div>
+	</div>
+	<div class="detail-like">你可能会喜欢<span>更多的商品 ></span></div>
+	<!-- 需要买的商品详情页 -->
+	<div class="buy-list">
+		<ul class="buy-inside-ul">
+			<li class="buy-inside-li">
+				<div class="buy-inside-bg"></div>
+				<h3>肌肤喝口茶润润</h3>
+				<p>
+					<span class="buy-price">￥48</span>
+					<span class="buy-mark-price">￥51</span>
+				</p>
+			</li>
+			<li class="buy-inside-li">
+				<div class="buy-inside-bg"></div>
+				<h3>肌肤喝口茶润润</h3>
+				<p>
+					<span class="buy-price">￥48</span>
+					<span class="buy-mark-price">￥51</span>
+				</p>
+			</li>
+			<li class="buy-inside-li">
+				<div class="buy-inside-bg"></div>
+				<h3>肌肤喝口茶润润</h3>
+				<p>
+					<span class="buy-price">￥48</span>
+					<span class="buy-mark-price">￥51</span>
+				</p>
+			</li>
+			<li class="buy-inside-li">
+				<div class="buy-inside-bg"></div>
+				<h3>肌肤喝口茶润润</h3>
+				<p>
+					<span class="buy-price">￥48</span>
+					<span class="buy-mark-price">￥51</span>
+				</p>
+			</li>
+			<li class="buy-inside-li">
+				<div class="buy-inside-bg"></div>
+				<h3>肌肤喝口茶润润</h3>
+				<p>
+					<span class="buy-price">￥48</span>
+					<span class="buy-mark-price">￥51</span>
+				</p>
+			</li>
+			<li class="buy-inside-li">
+				<div class="buy-inside-bg"></div>
+				<h3>肌肤喝口茶润润</h3>
+				<p>
+					<span class="buy-price">￥48</span>
+					<span class="buy-mark-price">￥51</span>
+				</p>
+			</li>
+			<li class="buy-inside-li">
+				<div class="buy-inside-bg"></div>
+				<h3>肌肤喝口茶润润</h3>
+				<p>
+					<span class="buy-price">￥48</span>
+					<span class="buy-mark-price">￥51</span>
+				</p>
+			</li>
+			<li class="buy-inside-li">
+				<div class="buy-inside-bg"></div>
+				<h3>肌肤喝口茶润润</h3>
+				<p>
+					<span class="buy-price">￥48</span>
+					<span class="buy-mark-price">￥51</span>
+				</p>
+			</li>
+		</ul>
+	</div>
+	<div class="detail-title-text">相关笔记</div>
+	<div class="detail-icon-title">
+		<div class="inside-div">
+			<span>彩妆</span>
+			<span>底妆</span>
+			<span>眉笔</span>
+			<span>气垫BB</span>
+			<span>粉底液</span>
+			<span>彩妆</span>
+			<span>底妆</span>
+			<span>眉笔</span>
+			<span>气垫BB</span>
+			<span>粉底液</span>
+			<span>彩妆</span>
+			<span>底妆</span>
+			<span>眉笔</span>
+			<span>气垫BB</span>
+			<span>粉底液</span>
+		</div>
+	</div>
+	<!-- 所有的商品列表 -->
+	<div class="detail-all-gods">
+		<ul class="detail-left">
+			<li class="detail-container-li">
+				<img src="images/detail-left-ul1.gif" class="detail-left-bg">
+				<div class="li-text">
+					<h3>雅诗兰黛EL新款气垫粉底棒</h3>
+					<p>兰黛EL新款气兰新款气垫粉底兰黛EL新款气垫粉底兰黛EL新款气垫粉底兰黛EL新款气垫粉底兰黛EL新款气垫EL新款气垫粉底</p>
+				</div>
+				<div>
+					<span class="detail-li-figure"></span>
+					<span>cherry 樱桃</span>
+					<span class="detail-li-heart"></span>
+					<span>2</span>
+				</div>
+			</li>
+			<li class="detail-container-li">
+				<img src="images/detail-right-ul1.gif" class="detail-left-bg">
+				<div class="li-text">
+					<h3>雅诗兰黛EL新款气垫粉底棒</h3>
+					<p>兰黛EL新款气垫粉底兰黛EL新款气垫粉底兰黛EL新款气垫粉底兰黛EL新款气垫粉底兰黛EL新款气垫粉底兰黛EL新款气垫粉底兰黛EL新款气垫粉底</p>
+				</div>
+				<div>
+					<span class="detail-li-figure"></span>
+					<span>cherry 樱桃</span>
+					<span class="detail-li-heart"></span>
+					<span>2</span>
+				</div>
+			</li>
+		</ul>
+		<ul class="detail-right">
+			<li class="detail-container-li">
+				<img src="images/detail-right-ul1.gif" class="detail-left-bg">
+				<div class="li-text">
+					<h3>雅诗兰黛EL新款气垫粉底棒</h3>
+					<p>黛EL新款气垫新款气垫粉底兰黛EL新款气垫粉底兰黛EL新款气垫粉底兰黛EL新款气垫粉底兰黛EL新款气垫粉L新款气垫粉底</p>
+				</div>
+				<div>
+					<span class="detail-li-figure"></span>
+					<span>cherry 樱桃</span>
+					<span class="detail-li-heart"></span>
+					<span>2</span>
+				</div>
+			</li>
+			<li class="detail-container-li">
+				<img src="images/detail-left-ul1.gif" class="detail-left-bg">
+				<div class="li-text">
+					<h3>雅诗兰黛EL新款气垫粉底棒</h3>
+					<p>兰EL新款垫新款气垫粉底兰黛EL新款气垫粉底兰黛EL新款气垫粉底兰黛EL新款气垫粉底兰黛EL新款气垫粉底兰黛EL新款气垫粉底</p>
+				</div>
+				<div>
+					<span class="detail-li-figure"></span>
+					<span>cherry 樱桃</span>
+					<span class="detail-li-heart"></span>
+					<span>2</span>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
